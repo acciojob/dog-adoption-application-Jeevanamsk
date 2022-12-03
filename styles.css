@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+h1{
+  color: white;
+}
+container{
+    display: inline;
+}
+#form{
+    
+    border-color: gray;
+    border-radius: 5px;
+    height:500px;
+    width: 500px;
+    background-color:lightblue;
+    padding-left:20px;
+    padding-top: 20px;
+}
+#submit{
+    border-style: none;
+    border-radius: 2px;
+    background-color: black;
+    height:40px;
+    width:150px;
+    color: white;
+    align-self: center;
+    left:100px;
+}
+
+#submit:hover{
+background-color: lightcoral;
+color: black;
+}
